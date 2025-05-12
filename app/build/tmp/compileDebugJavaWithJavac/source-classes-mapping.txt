@@ -1,0 +1,37 @@
+com/chatway/common/logger/Log.java
+ com.chatway.common.logger.Log
+com/chatway/BuildConfig.java
+ com.chatway.BuildConfig
+com/chatway/bluetoothchat/Constants.java
+ com.chatway.bluetoothchat.Constants
+com/chatway/common/logger/LogNode.java
+ com.chatway.common.logger.LogNode
+com/chatway/bluetoothchat/BluetoothChatService.java
+ com.chatway.bluetoothchat.BluetoothChatService
+ com.chatway.bluetoothchat.BluetoothChatService$AcceptThread
+ com.chatway.bluetoothchat.BluetoothChatService$ConnectThread
+ com.chatway.bluetoothchat.BluetoothChatService$ConnectedThread
+com/chatway/bluetoothchat/MainActivity.java
+ com.chatway.bluetoothchat.MainActivity
+com/chatway/common/logger/LogWrapper.java
+ com.chatway.common.logger.LogWrapper
+com/chatway/common/logger/MessageOnlyLogFilter.java
+ com.chatway.common.logger.MessageOnlyLogFilter
+com/chatway/common/logger/LogView.java
+ com.chatway.common.logger.LogView
+ com.chatway.common.logger.LogView$1
+com/chatway/bluetoothchat/DeviceListActivity.java
+ com.chatway.bluetoothchat.DeviceListActivity
+ com.chatway.bluetoothchat.DeviceListActivity$1
+ com.chatway.bluetoothchat.DeviceListActivity$2
+ com.chatway.bluetoothchat.DeviceListActivity$3
+com/chatway/common/logger/LogFragment.java
+ com.chatway.common.logger.LogFragment
+ com.chatway.common.logger.LogFragment$1
+com/chatway/bluetoothchat/BluetoothChatFragment.java
+ com.chatway.bluetoothchat.BluetoothChatFragment
+ com.chatway.bluetoothchat.BluetoothChatFragment$1
+ com.chatway.bluetoothchat.BluetoothChatFragment$2
+ com.chatway.bluetoothchat.BluetoothChatFragment$3
+com/chatway/common/activities/SampleActivityBase.java
+ com.chatway.common.activities.SampleActivityBase

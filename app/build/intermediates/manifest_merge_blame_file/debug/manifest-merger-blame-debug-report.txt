@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chatway"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml
+10
+11    <!-- 蓝牙权限 -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:8:5-68
+12-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:9:5-74
+13-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:9:22-71
+14
+15    <!-- 位置权限（Android 6.0 及以上） -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:12:5-81
+16-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:13:5-79
+17-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:13:22-76
+18
+19    <!-- 蓝牙连接权限（Android 12 及以上） -->
+20    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+20-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:16:5-73
+20-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:16:22-70
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:17:5-76
+21-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:17:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+22-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:18:5-78
+22-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:18:22-75
+23
+24    <!-- 声明应用支持蓝牙功能 -->
+25    <uses-feature
+25-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:21:5-87
+26        android:name="android.hardware.bluetooth"
+26-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:21:19-60
+27        android:required="true" />
+27-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:21:61-84
+28
+29    <application
+29-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:24:5-47:19
+30        android:allowBackup="true"
+30-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:25:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.5.0] /Users/june/.gradle/caches/transforms-2/files-2.1/4e9365d494d5387b456f1440e29ee65c/core-1.5.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@drawable/ic_launcher"
+33-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:26:9-45
+34        android:label="@string/app_name"
+34-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:27:9-41
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:28:9-40
+37        <activity
+37-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:30:9-39:20
+38            android:name="com.chatway.bluetoothchat.MainActivity"
+38-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:32:13-66
+39            android:configChanges="orientation|keyboardHidden"
+39-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:33:13-63
+40            android:exported="true"
+40-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:31:13-36
+41            android:label="@string/app_name" >
+41-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:34:13-45
+42            <intent-filter>
+42-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:35:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:36:17-68
+43-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:37:17-76
+45-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:41:9-46:63
+49            android:name="com.chatway.bluetoothchat.DeviceListActivity"
+49-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:43:13-72
+50            android:configChanges="orientation|keyboardHidden"
+50-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:44:13-63
+51            android:exported="true"
+51-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:42:13-36
+52            android:label="@string/select_device"
+52-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:45:13-50
+53            android:theme="@android:style/Theme.Holo.Dialog" />
+53-->/Users/june/Desktop/AndroidProjects/ChatWay/app/src/main/AndroidManifest.xml:46:13-61
+54    </application>
+55
+56</manifest>

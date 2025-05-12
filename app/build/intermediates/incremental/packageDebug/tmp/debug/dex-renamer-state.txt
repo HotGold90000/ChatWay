@@ -1,0 +1,7 @@
+#Tue May 13 01:08:59 CST 2025
+base.1=/Users/june/Desktop/AndroidProjects/ChatWay/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+path.1=classes.dex
+base.0=/Users/june/Desktop/AndroidProjects/ChatWay/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
